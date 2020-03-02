@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.scss';
+import App from './App/App';
 import * as serviceWorker from './serviceWorker';
+import axios from 'axios';
+
+axios.defaults.baseURL = 'https://assets.breatheco.de/apis/fake/todos/user'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 0 0 1px black;
+    .icon1 {
+        cursor: pointer;
+        margin: 16px;
+        &:hover {
+            color: green;
+        }
+    }
+    .icon2 {
+        cursor: pointer;
+        margin: 16px;
+        &:hover {
+            color: red;
+        }
+    }
+}

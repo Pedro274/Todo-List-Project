@@ -1,0 +1,32 @@
+$box-shadow: 0 0 1px black;
+$border: 1px solid black;
+
+.input_type_text {
+    margin: 12px 0;
+    height: 20px;
+    width: 35%;
+    box-shadow: $box-shadow;
+    border: $border;
+}
+
+.input_type_textarea {
+    width: 100%;
+    height: 300px;
+    box-shadow: $box-shadow;
+    border: $border;
+    box-sizing: border-box;
+}
+
+.input_button {
+    width:70px;
+    height: 25px;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: $box-shadow;
+    border-radius: 12px;
+    outline: none;
+    &:hover {
+        background-color: rgb(62, 62, 63);
+        color: white;
+    }
+}
